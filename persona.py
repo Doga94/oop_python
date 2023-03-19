@@ -1,9 +1,9 @@
-class Persona: #las clases inician en mayusculas
-    #atributos
-    nombre = None
-    edad = None
+class Persona: # se define una clase Persona
+    # atributos
+    nombre = None # atributo nombre inicializado a None
+    edad = None # atributo edad inicializado a None
 
-    #metodos
-    def mostrar_datos(self):
-        print(f'Nombre: {self.nombre}')
-        print(f'Edad: {self.edad}')
+    # métodos
+    def mostrar_datos(self): # define un método llamado mostrar_datos
+        print(f'Nombre: {self.nombre}') # imprime el valor del atributo nombre
+        print(f'Edad: {self.edad}') # imprime el valor del atributo edad
